@@ -1,0 +1,16 @@
+{
+  "defs": {
+    "base": "${today}",
+    "langs": [
+      "undefined",
+      "ai",
+      "prouctivity"
+    ]
+  },
+  "target": [
+    {
+      "filepath": "${base}/{lang}/daily.xml",
+      "url": "https://www.producthunt.com/feed?category={lang}.xml"
+    }
+  ]
+}

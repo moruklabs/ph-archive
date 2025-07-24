@@ -1,0 +1,54 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Commit Management Rules
+
+## Commit Grouping Guidelines
+
+When organizing commits, group related changes by logical categories:
+
+### Change Categories
+- **feat**: New features or major functionality additions
+- **fix**: Bug fixes and corrections
+- **docs**: Documentation updates ([README.md](mdc:README.md), [CONTRIBUTING.md](mdc:CONTRIBUTING.md))
+- **refactor**: Code reorganization without functional changes
+- **build**: Build system, dependencies, or tooling changes
+- **dev**: Development infrastructure and tooling ([dev/](mdc:dev))
+- **style**: Code style, formatting, UI/UX improvements
+- **test**: Testing additions or modifications
+
+### File Grouping Patterns
+
+**Frontend Application Changes:**
+- Group [app/](mdc:app) directory changes by feature (analytics, instagram, tiktok, youtube)
+- Combine [components/](mdc:components) and [hooks/](mdc:hooks) changes when related
+- Include [styles/](mdc:styles) updates with UI changes
+
+**Development Infrastructure:**
+- Group [dev/](mdc:dev) directory changes together:
+  - [dev/artifacts/](mdc:dev/artifacts) - Generated documentation and reports
+  - [dev/config/](mdc:dev/config) - Configuration files
+  - [dev/templates/](mdc:dev/templates) - Template files
+- Combine [package.json](mdc:package.json) and [pnpm-lock.yaml](mdc:pnpm-lock.yaml) changes
+- Group configuration files: [next.config.mjs](mdc:next.config.mjs), [tailwind.config.ts](mdc:tailwind.config.ts), [tsconfig.json](mdc:tsconfig.json)
+
+**Documentation Updates:**
+- Group documentation files together
+- Include [CHANGELOG.md](mdc:CHANGELOG.md) updates with their related functional changes
+
+## Commit Message Format
+
+Use conventional commit format:
+```
+type(scope): description
+
+- Detailed change 1
+- Detailed change 2
+```
+
+## Changelog Integration
+
+When updating [CHANGELOG.md](mdc:CHANGELOG.md)
+use [changelog-management.mdc](mdc:.cursor/rules/changelog-management.mdc)

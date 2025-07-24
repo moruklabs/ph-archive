@@ -1,0 +1,82 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Changelog Management Rules
+
+## Changelog Entry Guidelines
+
+When updating [CHANGELOG.md](mdc:CHANGELOG.md), follow these structured guidelines:
+
+### Entry Structure
+```markdown
+## [YYYY-MM-DD] - Descriptive Feature/Change Name
+
+### Category
+- **Feature/Component Name**
+  - Specific change description with [file references](mdc:path/to/file)
+  - Technical details and rationale
+  - Impact on users/developers
+```
+
+### Categories by Change Type
+
+**Added** - New features, files, or functionality:
+- New application features ([app/](mdc:app) routes and pages)
+- New components ([components/](mdc:components))
+- New development tools ([dev/](mdc:dev))
+- New documentation files
+
+**Fixed** - Bug fixes and corrections:
+- Application bug fixes
+- Build/deployment issues
+- Documentation corrections
+- Development tool fixes
+
+**Changed** - Modifications to existing functionality:
+- Feature enhancements
+- API changes
+- UI/UX improvements
+- Performance optimizations
+
+**Infrastructure** - Development and build system changes:
+- Build tool updates ([package.json](mdc:package.json), [pnpm-lock.yaml](mdc:pnpm-lock.yaml))
+- Configuration changes ([next.config.mjs](mdc:next.config.mjs), [tailwind.config.ts](mdc:tailwind.config.ts))
+- Development workflow improvements ([dev/](mdc:dev))
+- CI/CD pipeline changes
+
+**Technical Details** - Implementation specifics:
+- Architecture decisions
+- Performance considerations
+- Security implementations
+- Migration details
+
+### File Reference Standards
+
+- Use `[filename](mdc:path/to/file)` format for file references
+- Include key affected files in each bullet point
+- Reference configuration files when relevant
+- Link to new documentation or templates
+
+### Content Guidelines
+
+1. **Be specific**: Include exact file paths and component names
+2. **Explain rationale**: Why was the change made?
+3. **Include impact**: How does this affect users or developers?
+4. **Group related changes**: Combine logically connected modifications
+5. **Use technical detail sections**: For complex implementations
+
+### Date and Versioning
+
+- Use `[YYYY-MM-DD]` format for entries
+- Multiple entries per day are allowed for different feature sets
+- Use descriptive names that capture the essence of the changes
+- Consider the scope: individual feature vs. major overhaul
+
+### Integration with Commits
+
+- Update changelog as part of the commit that introduces changes
+- Ensure changelog entries align with commit groupings
+- Reference the changelog update in commit messages when appropriate
+- Use changelog entries to verify commit completeness
