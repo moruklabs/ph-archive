@@ -1,957 +1,810 @@
-<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xml:lang="en-US">
-  <ns0:id>tag:www.producthunt.com,2005:/feed</ns0:id>
-  <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com" />
-  <ns0:link rel="self" type="application/atom+xml" href="https://www.producthunt.com/feed" />
-  <ns0:title>Product Hunt — The best new products, every day</ns0:title>
-  <ns0:updated>2025-07-26T00:01:00-07:00</ns0:updated>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997350</ns0:id>
-    <ns0:published>2025-07-24T22:39:52-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:46:45-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/higgsfield-steal" />
-    <ns0:title>Higgsfield Steal</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Product Hunt — The best new products, every day</title>
+    <link>https://moruklabs.github.io/ph-archive</link>
+    <description>Product Hunt daily archive</description>
+    <lastBuildDate>Sat, 26 Jul 2025 07:01:00 -0000</lastBuildDate>
+    <generator>ph-archive</generator>
+    <item>
+      <title>Higgsfield Steal</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/higgsfield-steal</link>
+      <description>          &lt;p&gt;
             Recreate ANY picture from anywhere on the web
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/higgsfield-steal?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/higgsfield-steal"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997350?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Ankit Sharma</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997731</ns0:id>
-    <ns0:published>2025-07-25T19:31:22-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:33:17-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/qwen3-235b-a22b-thinking-2507" />
-    <ns0:title>Qwen3-235B-A22B-Thinking-2507</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Fri, 25 Jul 2025 05:39:52 -0000</pubDate>
+      <author>Ankit Sharma</author>
+      <guid>tag:www.producthunt.com,2005:Post/997350</guid>
+    </item>
+    <item>
+      <title>Qwen3-235B-A22B-Thinking-2507</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/qwen3-235b-a22b-thinking-2507</link>
+      <description>          &lt;p&gt;
             Qwen's most advanced reasoning model yet
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/qwen3-235b-a22b-thinking-2507?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/qwen3-235b-a22b-thinking-2507"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997731?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Zac Zuo</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997681</ns0:id>
-    <ns0:published>2025-07-25T13:48:26-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:45:10-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/shuffle-cli" />
-    <ns0:title>Shuffle CLI </ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Sat, 26 Jul 2025 02:31:22 -0000</pubDate>
+      <author>Zac Zuo</author>
+      <guid>tag:www.producthunt.com,2005:Post/997731</guid>
+    </item>
+    <item>
+      <title>Shuffle CLI </title>
+      <link>https://moruklabs.github.io/ph-archive/posts/shuffle-cli</link>
+      <description>          &lt;p&gt;
             Stunning UIs in Shuffle, full control in Cursor
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/shuffle-cli?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/shuffle-cli"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997681?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Dawid Andrzejewski</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/994041</ns0:id>
-    <ns0:published>2025-07-17T00:47:24-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:48:15-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/quicko-pro-3" />
-    <ns0:title>Quicko Pro</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Fri, 25 Jul 2025 20:48:26 -0000</pubDate>
+      <author>Dawid Andrzejewski</author>
+      <guid>tag:www.producthunt.com,2005:Post/997681</guid>
+    </item>
+    <item>
+      <title>Quicko Pro</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/quicko-pro-3</link>
+      <description>          &lt;p&gt;
             Practice management software for accountants
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/quicko-pro-3?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/quicko-pro-3"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/994041?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Charu Chaturvedi</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997664</ns0:id>
-    <ns0:published>2025-07-25T12:48:03-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:53:51-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/runway-aleph" />
-    <ns0:title> Runway Aleph</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 17 Jul 2025 07:47:24 -0000</pubDate>
+      <author>Charu Chaturvedi</author>
+      <guid>tag:www.producthunt.com,2005:Post/994041</guid>
+    </item>
+    <item>
+      <title> Runway Aleph</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/runway-aleph</link>
+      <description>          &lt;p&gt;
             A new way to edit, transform and generate video
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/runway-aleph?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/runway-aleph"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997664?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Ankit Sharma</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997312</ns0:id>
-    <ns0:published>2025-07-24T19:34:53-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:46:42-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/ship-happens" />
-    <ns0:title>Ship Happens</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Fri, 25 Jul 2025 19:48:03 -0000</pubDate>
+      <author>Ankit Sharma</author>
+      <guid>tag:www.producthunt.com,2005:Post/997664</guid>
+    </item>
+    <item>
+      <title>Ship Happens</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/ship-happens</link>
+      <description>          &lt;p&gt;
             Create, translate, &amp; upload screenshots/metadata for apps
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/ship-happens?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/ship-happens"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997312?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>JC</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997452</ns0:id>
-    <ns0:published>2025-07-25T02:59:13-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:09:51-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/the-catipede" />
-    <ns0:title>The Catipede</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Fri, 25 Jul 2025 02:34:53 -0000</pubDate>
+      <author>JC</author>
+      <guid>tag:www.producthunt.com,2005:Post/997312</guid>
+    </item>
+    <item>
+      <title>The Catipede</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/the-catipede</link>
+      <description>          &lt;p&gt;
             An emoji-based online game inspired by Tamagotchi.
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/the-catipede?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/the-catipede"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997452?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Kyrylo Silin</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997220</ns0:id>
-    <ns0:published>2025-07-24T12:18:51-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:53:55-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/opal-5" />
-    <ns0:title>Opal</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Fri, 25 Jul 2025 09:59:13 -0000</pubDate>
+      <author>Kyrylo Silin</author>
+      <guid>tag:www.producthunt.com,2005:Post/997452</guid>
+    </item>
+    <item>
+      <title>Opal</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/opal-5</link>
+      <description>          &lt;p&gt;
             Describe, create, and share your AI mini-apps
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/opal-5?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/opal-5"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997220?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Ankit Sharma</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996497</ns0:id>
-    <ns0:published>2025-07-23T01:35:48-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:22:43-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/golex-ai" />
-    <ns0:title>Golex AI</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 24 Jul 2025 19:18:51 -0000</pubDate>
+      <author>Ankit Sharma</author>
+      <guid>tag:www.producthunt.com,2005:Post/997220</guid>
+    </item>
+    <item>
+      <title>Golex AI</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/golex-ai</link>
+      <description>          &lt;p&gt;
             Turn ideas into interactive demo websites
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/golex-ai?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/golex-ai"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996497?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Kevin William David</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/994028</ns0:id>
-    <ns0:published>2025-07-16T23:56:28-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:51:00-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/memories-ai" />
-    <ns0:title>Memories.ai</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 08:35:48 -0000</pubDate>
+      <author>Kevin William David</author>
+      <guid>tag:www.producthunt.com,2005:Post/996497</guid>
+    </item>
+    <item>
+      <title>Memories.ai</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/memories-ai</link>
+      <description>          &lt;p&gt;
             ChatGPT for your video library, with unlimited video context
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/memories-ai?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/memories-ai"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/994028?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Kevin William David</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997171</ns0:id>
-    <ns0:published>2025-07-24T09:43:17-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:01:07-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/meethub-2" />
-    <ns0:title>MeetHub</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 17 Jul 2025 06:56:28 -0000</pubDate>
+      <author>Kevin William David</author>
+      <guid>tag:www.producthunt.com,2005:Post/994028</guid>
+    </item>
+    <item>
+      <title>MeetHub</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/meethub-2</link>
+      <description>          &lt;p&gt;
             Book meeting rooms from Slack
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/meethub-2?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/meethub-2"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997171?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Jaeheon Kim</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997329</ns0:id>
-    <ns0:published>2025-07-24T20:59:02-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:08:17-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/seed-liveinterpret-2-0" />
-    <ns0:title>Seed LiveInterpret 2.0</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 24 Jul 2025 16:43:17 -0000</pubDate>
+      <author>Jaeheon Kim</author>
+      <guid>tag:www.producthunt.com,2005:Post/997171</guid>
+    </item>
+    <item>
+      <title>Seed LiveInterpret 2.0</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/seed-liveinterpret-2-0</link>
+      <description>          &lt;p&gt;
             The SOTA performance of simultaneous interpretation models
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/seed-liveinterpret-2-0?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/seed-liveinterpret-2-0"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997329?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Zac Zuo</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997066</ns0:id>
-    <ns0:published>2025-07-24T04:44:49-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:48-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/fluensa" />
-    <ns0:title>Fluensa</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Fri, 25 Jul 2025 03:59:02 -0000</pubDate>
+      <author>Zac Zuo</author>
+      <guid>tag:www.producthunt.com,2005:Post/997329</guid>
+    </item>
+    <item>
+      <title>Fluensa</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/fluensa</link>
+      <description>          &lt;p&gt;
             Make the entire internet a space for language learning
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/fluensa?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/fluensa"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997066?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Igor Martinyuk</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/995811</ns0:id>
-    <ns0:published>2025-07-21T11:03:15-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:36-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/norton-neo" />
-    <ns0:title>Norton™ Neo</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 24 Jul 2025 11:44:49 -0000</pubDate>
+      <author>Igor Martinyuk</author>
+      <guid>tag:www.producthunt.com,2005:Post/997066</guid>
+    </item>
+    <item>
+      <title>Norton™ Neo</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/norton-neo</link>
+      <description>          &lt;p&gt;
             Your first safe AI-native browser
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/norton-neo?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/norton-neo"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/995811?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Chris Messina</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997337</ns0:id>
-    <ns0:published>2025-07-24T21:37:18-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:17-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/create-tab-in-google-photos" />
-    <ns0:title>Create tab in Google Photos</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Mon, 21 Jul 2025 18:03:15 -0000</pubDate>
+      <author>Chris Messina</author>
+      <guid>tag:www.producthunt.com,2005:Post/995811</guid>
+    </item>
+    <item>
+      <title>Create tab in Google Photos</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/create-tab-in-google-photos</link>
+      <description>          &lt;p&gt;
             Bring your memories to life
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/create-tab-in-google-photos?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/create-tab-in-google-photos"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997337?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Zac Zuo</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/997272</ns0:id>
-    <ns0:published>2025-07-24T15:34:10-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:01:02-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/frigade-ai" />
-    <ns0:title>Frigade AI</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Fri, 25 Jul 2025 04:37:18 -0000</pubDate>
+      <author>Zac Zuo</author>
+      <guid>tag:www.producthunt.com,2005:Post/997337</guid>
+    </item>
+    <item>
+      <title>Frigade AI</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/frigade-ai</link>
+      <description>          &lt;p&gt;
             In-app support that adapts to your product automatically
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/frigade-ai?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/frigade-ai"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/997272?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>fmerian</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996359</ns0:id>
-    <ns0:published>2025-07-22T16:24:23-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:42:50-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/camelai-embedded" />
-    <ns0:title>camelAI Embedded</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 24 Jul 2025 22:34:10 -0000</pubDate>
+      <author>fmerian</author>
+      <guid>tag:www.producthunt.com,2005:Post/997272</guid>
+    </item>
+    <item>
+      <title>camelAI Embedded</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/camelai-embedded</link>
+      <description>          &lt;p&gt;
             Embed chat with your data in your product
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/camelai-embedded?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/camelai-embedded"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996359?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>illiana reed</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/961911</ns0:id>
-    <ns0:published>2025-05-06T08:40:02-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:01:02-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/docsbot" />
-    <ns0:title>DocsBot</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Tue, 22 Jul 2025 23:24:23 -0000</pubDate>
+      <author>illiana reed</author>
+      <guid>tag:www.producthunt.com,2005:Post/996359</guid>
+    </item>
+    <item>
+      <title>DocsBot</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/docsbot</link>
+      <description>          &lt;p&gt;
             AI agents built for seamless support
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/docsbot?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/docsbot"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/961911?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Clara Lizano</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/989882</ns0:id>
-    <ns0:published>2025-07-08T02:40:55-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:53:39-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/parsagon" />
-    <ns0:title>Parsagon</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Tue, 06 May 2025 15:40:02 -0000</pubDate>
+      <author>Clara Lizano</author>
+      <guid>tag:www.producthunt.com,2005:Post/961911</guid>
+    </item>
+    <item>
+      <title>Parsagon</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/parsagon</link>
+      <description>          &lt;p&gt;
             AI to track and analyze public policy
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/parsagon?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/parsagon"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/989882?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Sandy Suh</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996938</ns0:id>
-    <ns0:published>2025-07-24T00:55:54-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:19:10-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/tender-6" />
-    <ns0:title>Tender</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Tue, 08 Jul 2025 09:40:55 -0000</pubDate>
+      <author>Sandy Suh</author>
+      <guid>tag:www.producthunt.com,2005:Post/989882</guid>
+    </item>
+    <item>
+      <title>Tender</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/tender-6</link>
+      <description>          &lt;p&gt;
             Like tinder, but only photos of my wife &amp; only right swipes
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/tender-6?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/tender-6"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996938?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Rhys Kentish</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/974974</ns0:id>
-    <ns0:published>2025-06-06T08:42:51-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:08:22-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/gabriel-operator" />
-    <ns0:title>Gabriel Operator</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 24 Jul 2025 07:55:54 -0000</pubDate>
+      <author>Rhys Kentish</author>
+      <guid>tag:www.producthunt.com,2005:Post/996938</guid>
+    </item>
+    <item>
+      <title>Gabriel Operator</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/gabriel-operator</link>
+      <description>          &lt;p&gt;
             Turns browser actions into AI agents to automate tasks
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/gabriel-operator?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/gabriel-operator"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/974974?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>vipin tanna</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996506</ns0:id>
-    <ns0:published>2025-07-23T01:54:48-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:41:36-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/company-dataset" />
-    <ns0:title>Company Dataset</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Fri, 06 Jun 2025 15:42:51 -0000</pubDate>
+      <author>vipin tanna</author>
+      <guid>tag:www.producthunt.com,2005:Post/974974</guid>
+    </item>
+    <item>
+      <title>Company Dataset</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/company-dataset</link>
+      <description>          &lt;p&gt;
             Full company data on millions of profile
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/company-dataset?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/company-dataset"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996506?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Garry Tan</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/994168</ns0:id>
-    <ns0:published>2025-07-17T05:07:34-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:53:24-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/well-embed" />
-    <ns0:title>Well Embed</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 08:54:48 -0000</pubDate>
+      <author>Garry Tan</author>
+      <guid>tag:www.producthunt.com,2005:Post/996506</guid>
+    </item>
+    <item>
+      <title>Well Embed</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/well-embed</link>
+      <description>          &lt;p&gt;
             Streamline payables with robots chasing invoices &amp; receipts
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/well-embed?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/well-embed"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/994168?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Nicolas Grenié</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996679</ns0:id>
-    <ns0:published>2025-07-23T08:30:41-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:06:33-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/lovable-agent-mode" />
-    <ns0:title>Lovable Agent Mode</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 17 Jul 2025 12:07:34 -0000</pubDate>
+      <author>Nicolas Grenié</author>
+      <guid>tag:www.producthunt.com,2005:Post/994168</guid>
+    </item>
+    <item>
+      <title>Lovable Agent Mode</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/lovable-agent-mode</link>
+      <description>          &lt;p&gt;
             Lovable now thinks, plans, and acts on its own
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/lovable-agent-mode?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/lovable-agent-mode"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996679?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Ankit Sharma</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996628</ns0:id>
-    <ns0:published>2025-07-23T06:50:38-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:23:55-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/ash-2" />
-    <ns0:title>Ash </ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 15:30:41 -0000</pubDate>
+      <author>Ankit Sharma</author>
+      <guid>tag:www.producthunt.com,2005:Post/996679</guid>
+    </item>
+    <item>
+      <title>Ash </title>
+      <link>https://moruklabs.github.io/ph-archive/posts/ash-2</link>
+      <description>          &lt;p&gt;
             The first AI designed for therapy
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/ash-2?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/ash-2"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996628?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Denys Zhadanov</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996835</ns0:id>
-    <ns0:published>2025-07-23T18:12:54-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:06:52-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/github-spark" />
-    <ns0:title>GitHub Spark</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 13:50:38 -0000</pubDate>
+      <author>Denys Zhadanov</author>
+      <guid>tag:www.producthunt.com,2005:Post/996628</guid>
+    </item>
+    <item>
+      <title>GitHub Spark</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/github-spark</link>
+      <description>          &lt;p&gt;
             AI platform for building + deploying full-stack apps
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/github-spark?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/github-spark"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996835?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Chris Messina</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/995835</ns0:id>
-    <ns0:published>2025-07-21T12:06:24-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:50-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/ai-flow-5" />
-    <ns0:title>AI-Flow</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 24 Jul 2025 01:12:54 -0000</pubDate>
+      <author>Chris Messina</author>
+      <guid>tag:www.producthunt.com,2005:Post/996835</guid>
+    </item>
+    <item>
+      <title>AI-Flow</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/ai-flow-5</link>
+      <description>          &lt;p&gt;
             One canvas with endless AI combos
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/ai-flow-5?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/ai-flow-5"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/995835?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>DahnM20</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996796</ns0:id>
-    <ns0:published>2025-07-23T13:57:54-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:52:36-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/elastic-copilot" />
-    <ns0:title>Elastic Copilot</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Mon, 21 Jul 2025 19:06:24 -0000</pubDate>
+      <author>DahnM20</author>
+      <guid>tag:www.producthunt.com,2005:Post/995835</guid>
+    </item>
+    <item>
+      <title>Elastic Copilot</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/elastic-copilot</link>
+      <description>          &lt;p&gt;
             AI coding agent for  VS code
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/elastic-copilot?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/elastic-copilot"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996796?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Andrew Mikhov</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/987221</ns0:id>
-    <ns0:published>2025-07-02T08:25:52-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:01:02-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/theo-2-0" />
-    <ns0:title>THEO 2.0</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 20:57:54 -0000</pubDate>
+      <author>Andrew Mikhov</author>
+      <guid>tag:www.producthunt.com,2005:Post/996796</guid>
+    </item>
+    <item>
+      <title>THEO 2.0</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/theo-2-0</link>
+      <description>          &lt;p&gt;
             Business Context Engineering Made Simple for Marketing Teams
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/theo-2-0?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/theo-2-0"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/987221?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Tristan Pollock</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996529</ns0:id>
-    <ns0:published>2025-07-23T02:57:27-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:20-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/cursor-memories" />
-    <ns0:title>Cursor Memories</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 02 Jul 2025 15:25:52 -0000</pubDate>
+      <author>Tristan Pollock</author>
+      <guid>tag:www.producthunt.com,2005:Post/987221</guid>
+    </item>
+    <item>
+      <title>Cursor Memories</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/cursor-memories</link>
+      <description>          &lt;p&gt;
             Memory system for Cursor agents
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/cursor-memories?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/cursor-memories"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996529?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Carl Rosales</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/991227</ns0:id>
-    <ns0:published>2025-07-10T15:26:30-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:26-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/knock-knock-3" />
-    <ns0:title>Knock Knock</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 09:57:27 -0000</pubDate>
+      <author>Carl Rosales</author>
+      <guid>tag:www.producthunt.com,2005:Post/996529</guid>
+    </item>
+    <item>
+      <title>Knock Knock</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/knock-knock-3</link>
+      <description>          &lt;p&gt;
             A video chat doorbell for websites
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/knock-knock-3?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/knock-knock-3"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/991227?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Chris Messina</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996538</ns0:id>
-    <ns0:published>2025-07-23T03:08:02-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:01:03-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/aiohm" />
-    <ns0:title>AIOHM</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 10 Jul 2025 22:26:30 -0000</pubDate>
+      <author>Chris Messina</author>
+      <guid>tag:www.producthunt.com,2005:Post/991227</guid>
+    </item>
+    <item>
+      <title>AIOHM</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/aiohm</link>
+      <description>          &lt;p&gt;
             WordPress AI with dual-mode KB management 
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/aiohm?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/aiohm"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996538?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Adrian Aparaschivei</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996266</ns0:id>
-    <ns0:published>2025-07-22T10:37:58-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:15-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/tinybird-code" />
-    <ns0:title>Tinybird Code</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 10:08:02 -0000</pubDate>
+      <author>Adrian Aparaschivei</author>
+      <guid>tag:www.producthunt.com,2005:Post/996538</guid>
+    </item>
+    <item>
+      <title>Tinybird Code</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/tinybird-code</link>
+      <description>          &lt;p&gt;
             The AI ClickHouse® expert you don't have to hire
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/tinybird-code?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/tinybird-code"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996266?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Cameron Archer</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996698</ns0:id>
-    <ns0:published>2025-07-23T09:08:22-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:18-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/bee-cba70de7-9626-4d41-9891-f988517d2291" />
-    <ns0:title>Bee</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Tue, 22 Jul 2025 17:37:58 -0000</pubDate>
+      <author>Cameron Archer</author>
+      <guid>tag:www.producthunt.com,2005:Post/996266</guid>
+    </item>
+    <item>
+      <title>Bee</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/bee-cba70de7-9626-4d41-9891-f988517d2291</link>
+      <description>          &lt;p&gt;
              Always‑on personal AI wearable
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/bee-cba70de7-9626-4d41-9891-f988517d2291?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/bee-cba70de7-9626-4d41-9891-f988517d2291"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996698?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Rohan Chaubey</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996884</ns0:id>
-    <ns0:published>2025-07-23T22:34:51-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:40-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/naiad-lens" />
-    <ns0:title>Naiad Lens</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 16:08:22 -0000</pubDate>
+      <author>Rohan Chaubey</author>
+      <guid>tag:www.producthunt.com,2005:Post/996698</guid>
+    </item>
+    <item>
+      <title>Naiad Lens</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/naiad-lens</link>
+      <description>          &lt;p&gt;
             Stop coding blind. See every flow in one click.
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/naiad-lens?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/naiad-lens"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996884?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Eric Van Lare</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996838</ns0:id>
-    <ns0:published>2025-07-23T18:27:05-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:37-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/snaplinear" />
-    <ns0:title>SnapLinear</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 24 Jul 2025 05:34:51 -0000</pubDate>
+      <author>Eric Van Lare</author>
+      <guid>tag:www.producthunt.com,2005:Post/996884</guid>
+    </item>
+    <item>
+      <title>SnapLinear</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/snaplinear</link>
+      <description>          &lt;p&gt;
             Auto-generate Linear tasks from meeting transcripts
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/snaplinear?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/snaplinear"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996838?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Jonah Katz</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/992699</ns0:id>
-    <ns0:published>2025-07-14T06:09:00-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:04-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/microtica-ai-incident-investigator" />
-    <ns0:title>Microtica AI Incident Investigator</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 24 Jul 2025 01:27:05 -0000</pubDate>
+      <author>Jonah Katz</author>
+      <guid>tag:www.producthunt.com,2005:Post/996838</guid>
+    </item>
+    <item>
+      <title>Microtica AI Incident Investigator</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/microtica-ai-incident-investigator</link>
+      <description>          &lt;p&gt;
             An AI Agent that tells you why your systems break
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/microtica-ai-incident-investigator?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/microtica-ai-incident-investigator"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/992699?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Rade Despodovski</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/987262</ns0:id>
-    <ns0:published>2025-07-02T09:33:05-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:01:02-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/mantle-starter" />
-    <ns0:title>Mantle Starter</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Mon, 14 Jul 2025 13:09:00 -0000</pubDate>
+      <author>Rade Despodovski</author>
+      <guid>tag:www.producthunt.com,2005:Post/992699</guid>
+    </item>
+    <item>
+      <title>Mantle Starter</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/mantle-starter</link>
+      <description>          &lt;p&gt;
             Free cap table management platform for early-stage founders
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/mantle-starter?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/mantle-starter"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/987262?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Mat Sherman</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996520</ns0:id>
-    <ns0:published>2025-07-23T02:24:23-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:01:06-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/deepdocs" />
-    <ns0:title>DeepDocs</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 02 Jul 2025 16:33:05 -0000</pubDate>
+      <author>Mat Sherman</author>
+      <guid>tag:www.producthunt.com,2005:Post/987262</guid>
+    </item>
+    <item>
+      <title>DeepDocs</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/deepdocs</link>
+      <description>          &lt;p&gt;
             Fix your outdated GitHub Docs on autopilot
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/deepdocs?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/deepdocs"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996520?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>fmerian</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/993376</ns0:id>
-    <ns0:published>2025-07-15T10:20:26-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:06:43-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/zumigames" />
-    <ns0:title>ZumiGames</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 09:24:23 -0000</pubDate>
+      <author>fmerian</author>
+      <guid>tag:www.producthunt.com,2005:Post/996520</guid>
+    </item>
+    <item>
+      <title>ZumiGames</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/zumigames</link>
+      <description>          &lt;p&gt;
             Your AI pet with a mind (and adventures) of its own 
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/zumigames?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/zumigames"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/993376?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Ben Lang</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996840</ns0:id>
-    <ns0:published>2025-07-23T18:56:22-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:52:24-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/synthetic-users" />
-    <ns0:title>Synthetic Users </ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Tue, 15 Jul 2025 17:20:26 -0000</pubDate>
+      <author>Ben Lang</author>
+      <guid>tag:www.producthunt.com,2005:Post/993376</guid>
+    </item>
+    <item>
+      <title>Synthetic Users </title>
+      <link>https://moruklabs.github.io/ph-archive/posts/synthetic-users</link>
+      <description>          &lt;p&gt;
             AI users to test your app, catch bugs, and give feedback
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/synthetic-users?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/synthetic-users"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996840?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Krish Chelikavada</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/990370</ns0:id>
-    <ns0:published>2025-07-09T00:52:04-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:54:58-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/trickle-magic-canvas" />
-    <ns0:title>Trickle - Magic Canvas </ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Thu, 24 Jul 2025 01:56:22 -0000</pubDate>
+      <author>Krish Chelikavada</author>
+      <guid>tag:www.producthunt.com,2005:Post/996840</guid>
+    </item>
+    <item>
+      <title>Trickle - Magic Canvas </title>
+      <link>https://moruklabs.github.io/ph-archive/posts/trickle-magic-canvas</link>
+      <description>          &lt;p&gt;
             The 1st Agentic Canvas for building apps visually with AI 
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/trickle-magic-canvas?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/trickle-magic-canvas"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/990370?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Rajiv Ayyangar</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996049</ns0:id>
-    <ns0:published>2025-07-22T02:09:09-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:01:02-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/turbostyle" />
-    <ns0:title>TurboStyle</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 09 Jul 2025 07:52:04 -0000</pubDate>
+      <author>Rajiv Ayyangar</author>
+      <guid>tag:www.producthunt.com,2005:Post/990370</guid>
+    </item>
+    <item>
+      <title>TurboStyle</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/turbostyle</link>
+      <description>          &lt;p&gt;
             Visual editor for any website
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/turbostyle?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/turbostyle"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996049?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Daniel Fulop</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996366</ns0:id>
-    <ns0:published>2025-07-22T17:12:14-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:01:07-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/moface-for-macos" />
-    <ns0:title>MoFace for MacOS</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Tue, 22 Jul 2025 09:09:09 -0000</pubDate>
+      <author>Daniel Fulop</author>
+      <guid>tag:www.producthunt.com,2005:Post/996049</guid>
+    </item>
+    <item>
+      <title>MoFace for MacOS</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/moface-for-macos</link>
+      <description>          &lt;p&gt;
             A live cam app to feature yourself
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/moface-for-macos?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/moface-for-macos"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996366?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>OdraSoft</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996051</ns0:id>
-    <ns0:published>2025-07-22T02:10:28-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:07:27-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/readwell" />
-    <ns0:title>Readwell</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 00:12:14 -0000</pubDate>
+      <author>OdraSoft</author>
+      <guid>tag:www.producthunt.com,2005:Post/996366</guid>
+    </item>
+    <item>
+      <title>Readwell</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/readwell</link>
+      <description>          &lt;p&gt;
             Find books you’ll love with AI-powered recommendations.
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/readwell?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/readwell"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996051?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Vlad Ches</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/960534</ns0:id>
-    <ns0:published>2025-05-02T17:40:09-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:01:06-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/super-for-ios" />
-    <ns0:title>Super for iOS</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Tue, 22 Jul 2025 09:10:28 -0000</pubDate>
+      <author>Vlad Ches</author>
+      <guid>tag:www.producthunt.com,2005:Post/996051</guid>
+    </item>
+    <item>
+      <title>Super for iOS</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/super-for-ios</link>
+      <description>          &lt;p&gt;
             Counter/Activity Tracking hybrid app for minimalists
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/super-for-ios?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/super-for-ios"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/960534?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Adithya Shreshti</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/996370</ns0:id>
-    <ns0:published>2025-07-22T17:44:51-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:06:40-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/commitify-me" />
-    <ns0:title>commitify.me</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Sat, 03 May 2025 00:40:09 -0000</pubDate>
+      <author>Adithya Shreshti</author>
+      <guid>tag:www.producthunt.com,2005:Post/960534</guid>
+    </item>
+    <item>
+      <title>commitify.me</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/commitify-me</link>
+      <description>          &lt;p&gt;
             AI agents that CALL your phone to keep you on track
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/commitify-me?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/commitify-me"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/996370?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Gijs de Bruin</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/995667</ns0:id>
-    <ns0:published>2025-07-21T05:20:45-07:00</ns0:published>
-    <ns0:updated>2025-07-26T18:41:46-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/zams-2" />
-    <ns0:title>Zams</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Wed, 23 Jul 2025 00:44:51 -0000</pubDate>
+      <author>Gijs de Bruin</author>
+      <guid>tag:www.producthunt.com,2005:Post/996370</guid>
+    </item>
+    <item>
+      <title>Zams</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/zams-2</link>
+      <description>          &lt;p&gt;
             The Sales Automation Platform for B2B companies
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/zams-2?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/zams-2"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/995667?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Kevin William David</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/984966</ns0:id>
-    <ns0:published>2025-06-27T19:52:28-07:00</ns0:published>
-    <ns0:updated>2025-07-26T17:51:01-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/saveit-now" />
-    <ns0:title>SaveIt.now</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Mon, 21 Jul 2025 12:20:45 -0000</pubDate>
+      <author>Kevin William David</author>
+      <guid>tag:www.producthunt.com,2005:Post/995667</guid>
+    </item>
+    <item>
+      <title>SaveIt.now</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/saveit-now</link>
+      <description>          &lt;p&gt;
             Organize nothing. Find everything.
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/saveit-now?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/saveit-now"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/984966?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Melvyn</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:www.producthunt.com,2005:Post/992895</ns0:id>
-    <ns0:published>2025-07-14T13:50:19-07:00</ns0:published>
-    <ns0:updated>2025-07-26T16:06:35-07:00</ns0:updated>
-    <ns0:link rel="alternate" type="text/html" href="https://www.producthunt.com/posts/clearitty" />
-    <ns0:title>Clearitty</ns0:title>
-    <ns0:content type="html">          &lt;p&gt;
+</description>
+      <pubDate>Sat, 28 Jun 2025 02:52:28 -0000</pubDate>
+      <author>Melvyn</author>
+      <guid>tag:www.producthunt.com,2005:Post/984966</guid>
+    </item>
+    <item>
+      <title>Clearitty</title>
+      <link>https://moruklabs.github.io/ph-archive/posts/clearitty</link>
+      <description>          &lt;p&gt;
             Human-verified signals for smarter sales outreach
           &lt;/p&gt;
           &lt;p&gt;
-            &lt;a href="https://www.producthunt.com/posts/clearitty?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            &lt;a href="https://moruklabs.github.io/ph-archive/posts/clearitty"&gt;Discussion&lt;/a&gt;
             |
             &lt;a href="https://www.producthunt.com/r/p/992895?app_id=339"&gt;Link&lt;/a&gt;
           &lt;/p&gt;
-</ns0:content>
-    <ns0:author>
-      <ns0:name>Ben Lang</ns0:name>
-    </ns0:author>
-  </ns0:entry>
-</ns0:feed>
+</description>
+      <pubDate>Mon, 14 Jul 2025 20:50:19 -0000</pubDate>
+      <author>Ben Lang</author>
+      <guid>tag:www.producthunt.com,2005:Post/992895</guid>
+    </item>
+  </channel>
+</rss>
