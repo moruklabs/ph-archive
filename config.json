@@ -4,8 +4,9 @@
     "langs": [
       "undefined",
       "ai",
-      "prouctivity"
-    ]
+      "productivity"
+    ],
+    "archive_base_url": "https://moruklabs.github.io/ph-archive"
   },
   "target": [
     {
