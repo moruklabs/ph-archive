@@ -54,4 +54,6 @@ jobs:
             exit 0
           fi
           git commit -m "feat: Update captures $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          git fetch origin main
+          git rebase origin/main
           git push origin main
