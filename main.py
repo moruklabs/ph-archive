@@ -8,10 +8,11 @@ from datetime import datetime, timezone
 from itertools import product
 from urllib.parse import urlparse
 
-import xml.etree.ElementTree
+import xml.etree.ElementTree as ET
 import dotenv
 import argparse
 import concurrent.futures
+from email.utils import formatdate
 
 try:
 
@@ -118,7 +119,7 @@ def expand_targets(defs, targets):
 
 ALLOWED_DOMAINS = {"https://www.producthunt.com"}
 
-def process_language_targets(language_targets):
+def process_language_targets(language_targets, archive_base_url=""):
     """Processes a list of targets for a single language sequentially."""
     language_failures = []
     for entry in language_targets:
@@ -146,16 +147,21 @@ def process_language_targets(language_targets):
         if content:
             ## check if the content is valid xml
             try:
-                xml.etree.ElementTree.fromstring(content)
-            except xml.etree.ElementTree.ParseError:
+                ET.fromstring(content)
+            except ET.ParseError:
                 print(f"[ERROR] Invalid XML content for {url}")
                 language_failures.append({"url": url, "filepath": filepath, "error": "invalid XML"})
                 continue
-            ## minify the xml
-            content = xml.etree.ElementTree.fromstring(content)
-            content = xml.etree.ElementTree.tostring(content, encoding='utf-8').decode('utf-8')
-            save_content(os.path.dirname(filepath), os.path.basename(filepath), content)
-            print(f"[INFO] Saved content for {url} to {filepath}")
+            
+            # Transform Atom to RSS 2.0 format with archive links
+            transformed_content = transform_atom_to_rss(content, archive_base_url=archive_base_url)
+            
+            if transformed_content:
+                save_content(os.path.dirname(filepath), os.path.basename(filepath), transformed_content)
+                print(f"[INFO] Saved transformed RSS content for {url} to {filepath}")
+            else:
+                print(f"[ERROR] Failed to transform RSS content for {url}")
+                language_failures.append({"url": url, "filepath": filepath, "error": "RSS transformation failed"})
         else:
             print(f"[ERROR] Failed to fetch content for {url}")
             language_failures.append({"url": url, "filepath": filepath, "error": "fetch failed"})
@@ -183,6 +189,116 @@ def fetch_url(url):
             time.sleep(BACKOFF_FACTOR ** attempt)
     print(f"[ERROR] Failed to fetch {url} after {MAX_RETRIES} attempts.")
     return None
+
+def transform_atom_to_rss(atom_content, archive_base_url=""):
+    """Transform Atom feed to RSS 2.0 format and replace external links with archive links."""
+    try:
+        # Parse the Atom feed
+        root = ET.fromstring(atom_content)
+        
+        # Handle namespace prefixes - remove them for cleaner output
+        namespace_map = {'atom': 'http://www.w3.org/2005/Atom'}
+        
+        # Create RSS 2.0 structure
+        rss = ET.Element('rss', version='2.0')
+        channel = ET.SubElement(rss, 'channel')
+        
+        # Extract feed-level information
+        title_elem = root.find('.//{http://www.w3.org/2005/Atom}title')
+        feed_title = title_elem.text if title_elem is not None else "Product Hunt Archive"
+        
+        link_elem = root.find('.//{http://www.w3.org/2005/Atom}link[@rel="alternate"]')
+        feed_link = link_elem.get('href') if link_elem is not None else archive_base_url
+        
+        updated_elem = root.find('.//{http://www.w3.org/2005/Atom}updated')
+        last_build_date = ""
+        if updated_elem is not None:
+            try:
+                # Convert from ISO format to RFC 2822 format
+                from datetime import datetime
+                dt = datetime.fromisoformat(updated_elem.text.replace('Z', '+00:00'))
+                last_build_date = formatdate(dt.timestamp())
+            except:
+                last_build_date = formatdate()
+        else:
+            last_build_date = formatdate()
+        
+        # Add channel elements
+        ET.SubElement(channel, 'title').text = feed_title
+        ET.SubElement(channel, 'link').text = archive_base_url or feed_link
+        ET.SubElement(channel, 'description').text = "Product Hunt daily archive"
+        ET.SubElement(channel, 'lastBuildDate').text = last_build_date
+        ET.SubElement(channel, 'generator').text = "ph-archive"
+        
+        # Process entries
+        entries = root.findall('.//{http://www.w3.org/2005/Atom}entry')
+        
+        for entry in entries:
+            item = ET.SubElement(channel, 'item')
+            
+            # Title
+            title_elem = entry.find('.//{http://www.w3.org/2005/Atom}title')
+            if title_elem is not None:
+                ET.SubElement(item, 'title').text = title_elem.text
+            
+            # Link - replace with archive link if archive_base_url is provided
+            link_elem = entry.find('.//{http://www.w3.org/2005/Atom}link[@rel="alternate"]')
+            original_link = link_elem.get('href') if link_elem is not None else ""
+            
+            if archive_base_url and original_link:
+                # Extract post ID from ProductHunt URL for archive link
+                import re
+                post_match = re.search(r'/posts/([^/?]+)', original_link)
+                if post_match:
+                    post_slug = post_match.group(1)
+                    archive_link = f"{archive_base_url}/posts/{post_slug}"
+                    ET.SubElement(item, 'link').text = archive_link
+                else:
+                    ET.SubElement(item, 'link').text = original_link
+            else:
+                ET.SubElement(item, 'link').text = original_link
+            
+            # Description/Content
+            content_elem = entry.find('.//{http://www.w3.org/2005/Atom}content')
+            if content_elem is not None:
+                content = content_elem.text or ""
+                # Replace ProductHunt links in content with archive links if needed
+                if archive_base_url:
+                    content = re.sub(
+                        r'href="https://www\.producthunt\.com/posts/([^"?]+)[^"]*"',
+                        f'href="{archive_base_url}/posts/\\1"',
+                        content
+                    )
+                ET.SubElement(item, 'description').text = content
+            
+            # Publication date
+            published_elem = entry.find('.//{http://www.w3.org/2005/Atom}published')
+            if published_elem is not None:
+                try:
+                    dt = datetime.fromisoformat(published_elem.text.replace('Z', '+00:00'))
+                    pub_date = formatdate(dt.timestamp())
+                    ET.SubElement(item, 'pubDate').text = pub_date
+                except:
+                    pass
+            
+            # Author
+            author_elem = entry.find('.//{http://www.w3.org/2005/Atom}author/{http://www.w3.org/2005/Atom}name')
+            if author_elem is not None:
+                ET.SubElement(item, 'author').text = author_elem.text
+            
+            # GUID
+            id_elem = entry.find('.//{http://www.w3.org/2005/Atom}id')
+            if id_elem is not None:
+                ET.SubElement(item, 'guid').text = id_elem.text
+        
+        # Convert to string with proper XML declaration
+        ET.indent(rss, space="  ")
+        xml_str = ET.tostring(rss, encoding='unicode')
+        return f'<?xml version="1.0" encoding="UTF-8"?>\n{xml_str}'
+        
+    except Exception as e:
+        print(f"[ERROR] Failed to transform Atom to RSS: {e}")
+        return None
 
 def save_content(folder, filename, content):
     os.makedirs(folder, exist_ok=True)
@@ -226,6 +342,7 @@ def main():
     config = load_config()
     defs = config.get('defs', {})
     targets = config.get('target', [])
+    archive_base_url = defs.get('archive_base_url', '')
 
     # Generate folders for all potential targets initially
     generate_folders(defs, targets)
@@ -272,7 +389,7 @@ def main():
     # Process each language group in parallel using ThreadPoolExecutor
     with concurrent.futures.ThreadPoolExecutor() as executor:
         future_to_lang = {
-            executor.submit(process_language_targets, targets_for_lang):
+            executor.submit(process_language_targets, targets_for_lang, archive_base_url):
             lang for lang, targets_for_lang in language_groups.items()
         }
         for future in concurrent.futures.as_completed(future_to_lang):
